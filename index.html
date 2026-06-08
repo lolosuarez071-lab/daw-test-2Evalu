@@ -345,6 +345,25 @@
       window.scrollTo(0, 0);
     }
 
+    const PASSWORD = "MsdDaw26";
+
+const acceso = prompt("Introduce la contraseña");
+
+if (acceso !== PASSWORD) {
+  document.body.innerHTML = `
+    <div style="
+      text-align:center;
+      margin-top:100px;
+      font-family:Arial;
+    ">
+      <h1>Acceso denegado</h1>
+    </div>
+  `;
+  throw new Error("Acceso denegado");
+}
+
+
+
     function cargarAsignaturas() {
       const contenedor = document.getElementById("listaAsignaturas");
       contenedor.innerHTML = "";
@@ -402,11 +421,16 @@
     }
 
     function iniciarExamenTema(tema) {
-      const asignatura = window.QUIZ_DATA[asignaturaActual];
-      bancoActual = asignatura.temas[tema];
-      tituloActual = asignatura.nombre + " - " + tema;
-      iniciarExamen(10);
-    }
+  const asignatura = window.QUIZ_DATA[asignaturaActual];
+  bancoActual = asignatura.temas[tema];
+  tituloActual = asignatura.nombre + " - " + tema;
+
+  if (tema === "Examen 2º Parcial") {
+    iniciarExamen(30);
+  } else {
+    iniciarExamen(10);
+  }
+}
 
     function iniciarExamenCompleto() {
       const asignatura = window.QUIZ_DATA[asignaturaActual];

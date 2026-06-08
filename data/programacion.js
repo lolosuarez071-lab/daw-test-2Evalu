@@ -1021,6 +1021,319 @@ window.QUIZ_DATA["programacion"] = {
         ],
         "correcta": "C"
       }
+    ],
+
+
+
+
+    "Examen 2º Parcial": [
+
+{
+  "pregunta": "Selecciona la opción correcta de las clases abstractas.",
+  "opciones": [
+    "Se utilizará la palabra implements para crearlas.",
+    "No pueden ser instanciadas con la palabra new.",
+    "No pueden contener métodos implementados.",
+    "No se podrá heredar de ellas."
+  ],
+  "correcta": "B"
+},
+{
+  "pregunta": "¿Dónde se pueden definir métodos abstractos en Java?",
+  "opciones": [
+    "Solo en clases abstractas",
+    "En clases normales y abstractas",
+    "Solo en interfaces",
+    "En clases abstractas e interfaces"
+  ],
+  "correcta": "D"
+},
+{
+  "pregunta": "Llamamos flujo a:",
+  "opciones": [
+    "Una vía de comunicación entre dos puntos.",
+    "La persistencia de datos de los ficheros.",
+    "La información que introducimos en un fichero.",
+    "La información que no se va a perder al escribir en un fichero."
+  ],
+  "correcta": "A"
+},
+{
+  "pregunta": "¿Cuál es la función principal de los flujos en Java?",
+  "opciones": [
+    "Convertir archivos en objetos",
+    "Crear interfaces de usuario",
+    "Permitir la lectura y escritura de datos entre un programa y un archivo",
+    "Borrar datos de la memoria"
+  ],
+  "correcta": "C"
+},
+{
+  "pregunta": "¿Cuál de estas sentencias sobre la creación de una excepción personalizada en Java es falsa?",
+  "opciones": [
+    "Es aconsejable que termine en Exception",
+    "Debe heredar de la clase Exception",
+    "Se puede implementar un constructor con parámetros",
+    "La excepción debe ser una interfaz"
+  ],
+  "correcta": "D"
+},
+{
+  "pregunta": "¿Qué clase se utiliza comúnmente junto con System.in para leer datos de la entrada estándar?",
+  "opciones": [
+    "Scanner",
+    "PrintWriter",
+    "BufferedWriter",
+    "Console"
+  ],
+  "correcta": "A"
+},
+{
+  "pregunta": "Cuando trabajamos con ficheros en Java, ¿qué excepción suele ser la más común que se lance?",
+  "opciones": [
+    "IOException",
+    "NullPointerException",
+    "FileException",
+    "SecurityException"
+  ],
+  "correcta": "A"
+},
+{
+  "pregunta": "¿Qué operación se debe realizar siempre después de operar con un flujo de datos en Java?",
+  "opciones": [
+    "Cerrar el flujo",
+    "Asignar una nueva ruta al flujo",
+    "Cambiar el tipo de flujo",
+    "Volver a abrir el flujo"
+  ],
+  "correcta": "A"
+},
+{
+  "pregunta": "Para depurar, utilizaremos fuerza bruta:",
+  "opciones": [
+    "Cuando no tenemos claro el problema que se está produciendo.",
+    "Cuando queremos parar el código y analizar lo que está sucediendo.",
+    "Cuando usamos herramientas que nos permiten hacer una depuración de manera automática.",
+    "Cuando queremos mejorar la calidad del sistema."
+  ],
+  "correcta": "A"
+},
+{
+  "pregunta": "¿Cuál es el propósito de la cláusula finally en una estructura try-catch-finally?",
+  "opciones": [
+    "Capturar la excepción lanzada",
+    "Lanzar una nueva excepción",
+    "Ejecutar código que se debe ejecutar siempre, independientemente de si ocurre una excepción",
+    "Ignorar cualquier excepción que ocurra"
+  ],
+  "correcta": "C"
+},
+{
+  "pregunta": "El tipo de colección donde no vamos a repetir elementos es:",
+  "opciones": [
+    "El conjunto.",
+    "La lista.",
+    "La cola.",
+    "La pila."
+  ],
+  "correcta": "A"
+},
+{
+  "pregunta": "¿Qué se logra mediante la serialización en Java?",
+  "opciones": [
+    "Escribir solo las propiedades de un objeto en un archivo",
+    "Escribir objetos directamente en los ficheros",
+    "Leer objetos desde ficheros binarios",
+    "Crear objetos en memoria sin propiedades"
+  ],
+  "correcta": "B"
+},
+{
+  "pregunta": "¿Qué biblioteca utilizamos en Java para la creación de la interfaz gráfica?",
+  "opciones": [
+    "SDL",
+    "WxPython",
+    "AWS",
+    "Swing"
+  ],
+  "correcta": "D"
+},
+{
+  "pregunta": "¿Qué técnica de depuración implica la revisión manual del código para encontrar errores?",
+  "opciones": [
+    "Monitorización",
+    "Inspección del código",
+    "Depuración automática",
+    "Pruebas de carga"
+  ],
+  "correcta": "B"
+},
+{
+  "pregunta": "Para hacer un select con la clase Statement utilizaremos:",
+  "opciones": [
+    "El método executeQuery",
+    "El método executeUpdate",
+    "El método executeSelection",
+    "El método executeInsert"
+  ],
+  "correcta": "A"
+},
+{
+  "pregunta": "¿Qué tipo de pruebas requieren conocer el diseño y la estructura interna del código?",
+  "opciones": [
+    "Pruebas de caja negra",
+    "Pruebas de regresión",
+    "Pruebas de caja blanca",
+    "Pruebas de aceptación"
+  ],
+  "correcta": "C"
+},
+
+{
+  "pregunta": "¿Cuáles son las operaciones CRUD?",
+  "opciones": [
+    "Create, Relational, Upper, Delete",
+    "Create, Read, Update, Delete",
+    "CInterface, Relational, Update, Dimension",
+    "Cris, Rios, Ups, Dio"
+  ],
+  "correcta": "B"
+},
+
+{
+  "pregunta": "¿Qué clase de Swing permite al usuario seleccionar elementos de una lista de opciones desplegable?",
+  "opciones": [
+    "JTable",
+    "JComboBox",
+    "JButton",
+    "JTextField"
+  ],
+  "correcta": "B"
+},
+
+{
+  "pregunta": "¿A qué se parecen las consultas JPQL?",
+  "opciones": [
+    "Java.",
+    "SQL.",
+    "Fortran.",
+    "A la API exclusiva del lenguaje al que pertenece."
+  ],
+  "correcta": "B"
+},
+{
+  "pregunta": "Para ejecutar una consulta SQL que no devuelve resultados (como una inserción o actualización), ¿qué método se utiliza en Statement?",
+  "opciones": [
+    "runQuery()",
+    "executeQuery()",
+    "executeUpdate()",
+    "executeSelect()"
+  ],
+  "correcta": "C"
+},
+{
+  "pregunta": "¿Es posible instanciar directamente una clase abstracta con new?",
+  "opciones": [
+    "Sí, siempre",
+    "No, solo se puede heredar de ella",
+    "Sí, pero solo en métodos estáticos",
+    "Sí, si contiene un constructor"
+  ],
+  "correcta": "B"
+},
+{
+  "pregunta": "¿Qué característica tienen en común tanto HashSet como TreeSet?",
+  "opciones": [
+    "Mantienen el orden de inserción de los elementos",
+    "Permiten elementos duplicados",
+    "Los elementos deben ser únicos",
+    "Ambos se basan en la estructura de árbol"
+  ],
+  "correcta": "C"
+},
+{
+  "pregunta": "¿Qué significa la sigla ORM en el contexto de bases de datos?",
+  "opciones": [
+    "Object-Relational Mapping",
+    "Object-Result Mapping",
+    "Object-Rational Mapping",
+    "Object-Reference Mapping"
+  ],
+  "correcta": "A"
+},
+{
+  "pregunta": "¿Qué tipo de sentencia SQL se utiliza en la operación \"update\"?",
+  "opciones": [
+    "UPDATE",
+    "DELETE",
+    "INSERT",
+    "SELECT"
+  ],
+  "correcta": "A"
+},
+{
+  "pregunta": "¿Cuál es el tamaño del map stock al finalizar el programa?",
+  "opciones": [
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "correcta": "A"
+},
+{
+  "pregunta": "¿Qué imprime el siguiente código presente en el programa? System.out.println(\"Contiene 'Banana'? \" + stock.containsKey(\"Banana\"));",
+  "opciones": [
+    "Da error de ejecución",
+    "Contiene 'Banana'? null",
+    "Contiene 'Banana'? true",
+    "Contiene 'Banana'? false"
+  ],
+  "correcta": "D"
+},
+{
+  "pregunta": "¿Qué imprime el siguiente código presente en el programa? System.out.println(\"Cantidad de Manzana: \" + stock.get(\"Manzana\"));",
+  "opciones": [
+    "10",
+    "12",
+    "null",
+    "Da error"
+  ],
+  "correcta": "B"
+},
+{
+  "pregunta": "¿Qué mostrará por consola el bucle del código (for) que recorre entrySet()?",
+  "opciones": [
+    "Manzana: 12, Banana: 5, Naranja: 8, Pera: 7",
+    "Manzana: 12, Naranja: 8, Pera: 7",
+    "El orden exacto no se puede predecir, pero mostrará Manzana: 12, Naranja: 8, Pera: 7",
+    "Da error de ejecución"
+  ],
+  "correcta": "C"
+},
+{
+  "pregunta": "Si se modifica el código en la inicialización del map y ahora se usa un TreeMap, ¿qué mostrará por consola el bucle del código (for) que recorre entrySet()?",
+  "opciones": [
+    "Manzana: 12, Banana: 5, Naranja: 8, Pera: 7",
+    "Manzana: 12, Naranja: 8, Pera: 7",
+    "El orden exacto no se puede predecir, pero mostrará Manzana: 12, Naranja: 8, Pera: 7",
+    "Da error de ejecución"
+  ],
+  "correcta": "B"
+},
+{
+  "pregunta": "¿Qué mostrará la siguiente línea de código presente en el programa? System.out.println(\"Tamaño del map: \" + stock.size());",
+  "opciones": [
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "correcta": "B"
+}
+
+
+
     ]
   }
 };
