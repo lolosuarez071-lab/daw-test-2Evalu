@@ -1334,6 +1334,418 @@ window.QUIZ_DATA["programacion"] = {
 
 
 
+    ],
+
+
+    "Cuestionario de repaso": [
+
+      {
+        "pregunta": "Tenemos una clase que implementa dos interfaces diferentes y estas contienen un método con el mismo nombre:",
+        "opciones": [
+          "Si los dos métodos devuelven un tipo de dato diferente se produciría un error de compilación.",
+          "Si los dos métodos devuelven el mismo tipo de dato se ejecutarán los dos.",
+          "Si los dos métodos son exactamente iguales, se producirá un error de compilación.",
+          "Una clase no puede implementar dos interfaces."
+        ],
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Dónde se van a encontrar todas las clases de acceso a ficheros?",
+        "opciones": [
+          "En el paquete java.files.*;",
+          "En el paquete java.io.*;",
+          "En el paquete java.files.io.*;",
+          "En el paquete java.io.files.*;"
+        ],
+        "correcta": "B"
+      },
+      {
+        "pregunta": "Los errores en tiempo de ejecución:",
+        "opciones": [
+          "Son los errores que tendremos cuando se ejecuta el programa y, por ejemplo, intentamos obtener un elemento de una posición no válida de un array.",
+          "Son los errores que tendremos que cuando escribimos el código, avisándonos de ello el propio compilador.",
+          "En Java no hay distinción de errores.",
+          "Tanto a como b son ciertas."
+        ],
+        "correcta": "A"
+      },
+      {
+        "pregunta": "La API JAXB se utiliza con ficheros",
+        "opciones": [
+          "XSD",
+          "DTD",
+          "JSON",
+          "XML"
+        ],
+        "correcta": "D"
+      },
+      {
+        "pregunta": "Las pruebas de caja negra ________",
+        "opciones": [
+          "Están muy limitadas",
+          "No tienen sentido en la actualidad",
+          "Son más efectivas si el programador no conoce el código",
+          "Solo valen para pruebas internas"
+        ],
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes definiciones no es correcta?",
+        "opciones": [
+          "ArrayList<String> array = new ArrayList<>();",
+          "ArrayList<Boolean> array = new ArrayList<>();",
+          "ArrayList<ArrayList<Integer>> array = new ArrayList<>();",
+          "ArrayList<int> array = new ArrayList<>();"
+        ],
+        "correcta": "D"
+      },
+      {
+        "pregunta": "¿Qué evento se lanzará cuando pulsemos sobre un menú?",
+        "opciones": [
+          "clickedMenu.",
+          "actionPerformed.",
+          "menuPerformed.",
+          "singleClickMenu."
+        ],
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuántas claves primarias puede tener cada fila en una tabla?",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué es una inyección SQL?",
+        "opciones": [
+          "Una técnica para mejorar el rendimiento de las consultas SQL.",
+          "Una vulnerabilidad de seguridad que permite a los atacantes ejecutar comandos SQL no autorizados.",
+          "Un método para encriptar datos en una base de datos.",
+          "Una forma de hacer que las consultas SQL sean más eficientes."
+        ],
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la relación entre EntityManagerFactory y EntityManager en JPA?",
+        "opciones": [
+          "EntityManagerFactory crea y mantiene instancias de EntityManager, que realizan operaciones de persistencia.",
+          "EntityManagerFactory define las relaciones entre las entidades, mientras que EntityManager realiza las consultas SQL.",
+          "EntityManagerFactory y EntityManager son intercambiables y pueden utilizarse indistintamente en una aplicación JPA.",
+          "EntityManager crea y configura instancias de EntityManagerFactory para cada operación de persistencia."
+        ],
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿A qué se parecen las consultas JPQL?",
+        "opciones": [
+          "A Java.",
+          "A SQL.",
+          "A Fortran.",
+          "A la API exclusiva del lenguaje al que pertenece."
+        ],
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué biblioteca utilizamos en Java para la creación de la interfaz gráfica?",
+        "opciones": [
+          "SDL",
+          "WxPython",
+          "AWS",
+          "Swing"
+        ],
+        "correcta": "D"
+      },
+      {
+        "pregunta": "El tipo de colección donde no vamos a repetir elementos es:",
+        "opciones": [
+          "El conjunto.",
+          "La lista.",
+          "La cola.",
+          "La pila."
+        ],
+        "correcta": "A"
+      },
+      {
+        "pregunta": "Con JOptionPane.ERROR_MESSAGE indicamos:",
+        "opciones": [
+          "Con esto indicamos que es una ventana del tipo error y mostrará el icono que le corresponde.",
+          "Con esto indicamos que es una ventana del tipo información.",
+          "Con esto indicamos que es una ventana del tipo peligro y mostrará el icono que le corresponde.",
+          "Con esto indicamos que es una ventana del tipo pregunta."
+        ],
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Cuándo se ejecutará el bloque finally?",
+        "opciones": [
+          "Después de que se ejecute el try.",
+          "Después de que se ejecute el catch.",
+          "Después de que se ejecute el bloque try-catch.",
+          "Habrá que llamarlo expresamente."
+        ],
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál es el propósito principal de una interfaz en Java?",
+        "opciones": [
+          "Crear múltiples instancias de la misma",
+          "Proporcionar una implementación completa de todos los métodos",
+          "Servir como una plantilla para otras clases",
+          "Evitar la herencia"
+        ],
+        "correcta": "C"
+      },
+      {
+        "pregunta": "El bucle for-each:",
+        "opciones": [
+          "Nos permite recorrer una colección de forma segura y sencilla.",
+          "Este tipo de bucle no existe en Java, sino que es propio de Python.",
+          "Es un bucle for encubierto.",
+          "Solo se puede utilizar en colecciones que tengan almacenados datos de tipo String."
+        ],
+        "correcta": "A"
+      },
+      {
+        "pregunta": "En cuanto a cómo se guardan los archivos en un fichero, ¿cuál es el tipo que emplea dos archivos para almacenar dichos archivos?",
+        "opciones": [
+          "Organización Secuencial",
+          "Organización Directa",
+          "Organización Aleatoria",
+          "Organización Indexada"
+        ],
+        "correcta": "D"
+      },
+      {
+        "pregunta": "¿Cuál es la clase envolvente de char?",
+        "opciones": [
+          "Char",
+          "Charac",
+          "Character",
+          "Characteristics"
+        ],
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál de estas sentencias sobre la creación de una excepción personalizada en Java es falsa?",
+        "opciones": [
+          "Es aconsejable que termine en Exception",
+          "Debe de heredar de la clase Exception",
+          "Se puede implementar un constructor con parámetros",
+          "La excepción debe ser una interfaz"
+        ],
+        "correcta": "D"
+      }
+
+    ],
+
+
+    "Ejercicio recuperacion": [
+
+
+      {
+        "pregunta": "Sobre la instrucción if:",
+        "opciones": [
+          "Todos los if tienen que tener obligatoriamente un else y todos los else tienen que tener obligatoriamente un if.",
+          "Puede haber if sin else, pero los else tienen que tener obligatoriamente un if.",
+          "Un if puede tener más de un else.",
+          "Un else puede tener varios if."
+        ],
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué palabra reservada usamos en Java para indicar la herencia?",
+        "opciones": [
+          "Herency.",
+          "Extends.",
+          "Implements.",
+          "Se usa el operador dos puntos (:)."
+        ],
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es el propósito principal de la sobrecarga de métodos en Java?",
+        "opciones": [
+          "Ocultar la implementación de un método",
+          "Crear múltiples versiones de un método con diferentes parámetros",
+          "Heredar métodos de una superclase",
+          "Implementar polimorfismo en tiempo de ejecución"
+        ],
+        "correcta": "B"
+      },
+      {
+        "pregunta": "Para mostrar la información de un objeto por pantalla:",
+        "opciones": [
+          "Puedo utilizar los métodos get o escribir su método toString para mostrarlo directamente.",
+          "Si no se escribe el método toString no se puede mostrar la información del objeto.",
+          "Solo se podrá mostrar su información mediante los métodos get.",
+          "No se puede mostrar la información de un objeto por pantalla."
+        ],
+        "correcta": "A"
+      },
+      {
+        "pregunta": "Los tres métodos básicos para ordenar un array son:",
+        "opciones": [
+          "Burbuja, inserción, inducción.",
+          "Burbuja, deducción, inserción.",
+          "Burbuja, inserción, selección.",
+          "Burbuja, selección, ordenación."
+        ],
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Dónde se realizan múltiples llamadas de una función o un procedimiento sobre sí mismo?",
+        "opciones": [
+          "En el proceso de recursión.",
+          "Dentro del caso base.",
+          "Dentro de lo que se conoce como resolución final.",
+          "En un procedimiento pero no en una función."
+        ],
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Cómo se llama la clase que hereda de otra?",
+        "opciones": [
+          "Clase padre",
+          "Subclase.",
+          "Super Clase.",
+          "Clase abstracta"
+        ],
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes declaraciones de variables no es correcta?",
+        "opciones": [
+          "int numeroReal = 2.8;",
+          "String palabra = \"Boy a vuskar herrores\";",
+          "char letra = '9';",
+          "double numeroConDecimales = 4;"
+        ],
+        "correcta": "A"
+      },
+      {
+        "pregunta": "Cuando escribes a = b + c;...",
+        "opciones": [
+          "En a se introducirá el valor de b más el valor de c. Las variables b y c se quedarán vacías",
+          "En a b y c se introducirá el valor de b más el valor de c",
+          "En a se introducirá el valor de b más el valor de c",
+          "En b y c se insertará el valor apropiado para que su suma sea igual al valor de a"
+        ],
+        "correcta": "C"
+      },
+      {
+        "pregunta": "Según la notación CamelCase, ¿cómo se han de nombrar los métodos?",
+        "opciones": [
+          "Todo en minúscula.",
+          "Todo en mayúscula.",
+          "La primera letra en mayúscula y las demás en minúscula de todas las palabras.",
+          "La primera palabra en minúscula y las demás con la primera letra en mayúscula y las demás en minúscula."
+        ],
+        "correcta": "D"
+      },
+      {
+        "pregunta": "¿Cuál es el método de depuración que permite dejar registros para saber cómo se comporta el flujo de ejecución?",
+        "opciones": [
+          "Test Unitario",
+          "Inspección de Código",
+          "Monitorización",
+          "Trazas"
+        ],
+        "correcta": "D"
+      },
+      {
+        "pregunta": "¿Qué significa ORM?",
+        "opciones": [
+          "Mapeo objeto-relacional",
+          "Base de datos orientada a objetos",
+          "Objeto relacional parseado",
+          "Sistema gestor de bases de datos"
+        ],
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Cuándo se ejecutará el bloque finally?",
+        "opciones": [
+          "Después de que se ejecute el try.",
+          "Después de que se ejecute el catch.",
+          "Después de que se ejecute el bloque try-catch.",
+          "Habrá que llamarlo expresamente."
+        ],
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál de estas sentencias sobre la creación de una excepción personalizada en Java es falsa?",
+        "opciones": [
+          "Es aconsejable que termine en Exception",
+          "Debe de heredar de la clase Exception",
+          "Se puede implementar un constructor con parámetros",
+          "La excepción debe ser una interfaz"
+        ],
+        "correcta": "D"
+      },
+      {
+        "pregunta": "¿A qué se le conoce como POJO?",
+        "opciones": [
+          "A la separación de la lógica de negocio de la lógica de acceso a los datos en una aplicación.",
+          "A los métodos que se encargan de guardar y recuperar la información en la base de datos.",
+          "A un objeto simple que ni hereda ni implementa nada.",
+          "A una API que es estándar de Java"
+        ],
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿A qué se parecen las consultas JPQL?",
+        "opciones": [
+          "A Java.",
+          "A SQL.",
+          "A Fortran",
+          "A la API exclusiva del lenguaje al que pertenece."
+        ],
+        "correcta": "B"
+      },
+      {
+        "pregunta": "Llamamos flujo a:",
+        "opciones": [
+          "Una vía de comunicación entre dos puntos.",
+          "La persistencia de datos de los ficheros.",
+          "La información que introducimos en un fichero.",
+          "La información que no se va a perder al escribir en un fichero."
+        ],
+        "correcta": "A"
+      },
+      {
+        "pregunta": "Cuando trabajamos con ficheros en Java, ¿qué excepción suele ser la más común que se lance?",
+        "opciones": [
+          "IOException",
+          "NullPointerException",
+          "FileException",
+          "SecurityException"
+        ],
+        "correcta": "A"
+      },
+      {
+        "pregunta": "Para hacer un select con la clase Statement utilizaremos:",
+        "opciones": [
+          "El método executeQuery.",
+          "El método executeUpdate.",
+          "El método executeSelection.",
+          "El método executeInsert."
+        ],
+        "correcta": "A"
+      },
+      {
+        "pregunta": "Para hacer un delete con la clase Statement utilizaremos:",
+        "opciones": [
+          "El método executeQuery.",
+          "El método executeUpdate.",
+          "El método executeSelection.",
+          "El método executeDelete."
+        ],
+        "correcta": "B"
+      }
     ]
   }
 };

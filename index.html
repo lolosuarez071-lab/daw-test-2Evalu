@@ -426,11 +426,13 @@ if (acceso !== PASSWORD) {
   tituloActual = asignatura.nombre + " - " + tema;
 
   if (tema === "Examen 2º Parcial") {
-    iniciarExamen(30);
-  } else {
-    iniciarExamen(10);
-  }
+  iniciarExamen(30);
+} else if (tema === "Cuestionario de repaso" || tema === "Ejercicio recuperacion") {
+  iniciarExamen(20);
+} else {
+  iniciarExamen(10);
 }
+    }
 
     function iniciarExamenCompleto() {
       const asignatura = window.QUIZ_DATA[asignaturaActual];
@@ -600,3 +602,4 @@ function iniciarExamen(totalPreguntas) {
 </body>
 
 </html>
+  
