@@ -1021,6 +1021,665 @@ window.QUIZ_DATA["bases_datos"] = {
         ],
         "correcta": "C"
       }
-    ]
+    ],
+
+
+
+"Cuestionario de repaso": [
+
+  {
+    "pregunta": "La cláusula ‘MINUS’",
+    "opciones": [
+      "Devuelve sólo las filas que están presentes en dos consultas ‘SELECT’, eliminando las filas duplicadas",
+      "Permite obtener las filas presentes en el resultado de la primera consulta ‘SELECT’, pero que no están en el resultado de la segunda",
+      "Hace lo opuesto a la cláusula ‘EXCEPT’",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": "B"
+  },
+  {
+    "pregunta": "Al insertar datos en una tabla con integridad referencial, ¿qué ocurriría si el valor no existe en la tabla referenciada?",
+    "opciones": [
+      "Se insertará el registro y se mostrará una advertencia",
+      "Se insertará normalmente",
+      "Se creará también un registro en la tabla referenciada",
+      "Se producirá un error y la inserción no se realizará"
+    ],
+    "correcta": "D"
+  },
+  {
+    "pregunta": "Algunos de los objetos de la base de datos sobre los que asignar privilegios son",
+    "opciones": [
+      "DIRECTORY y REFACTORY",
+      "TABLE Y EDITION",
+      "EDITION Y REFACTORY",
+      "TABLE y OPTIONAL"
+    ],
+    "correcta": "B"
+  },
+  {
+    "pregunta": "Una transacción suele iniciarse con la primera instrucción DML que se ejecuta y concluye con una instrucción",
+    "opciones": [
+      "END TRANSACTION",
+      "AUTOCOMMIT",
+      "COMMIT o ROLLBACK",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "Entre los entornos de desarrollo de SQL más populares se encuentran",
+    "opciones": [
+      "Eclipse, Atom, Netbeans",
+      "Visual SQLStudio, IntelliJ IDEA, RStudioSQL",
+      "MySQL Workbench, Microsoft SQL Server Management Studio y Oracle SQL Developer",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "Para hacer la extracción de datos de un cursor se utiliza la instrucción",
+    "opciones": [
+      "OPEN",
+      "EXTRACT",
+      "ROWCOUNT",
+      "FETCH"
+    ],
+    "correcta": "D"
+  },
+  {
+    "pregunta": "Los paquetes permiten agrupar",
+    "opciones": [
+      "Funciones, procedimientos y tipos de datos.",
+      "Cursores, excepciones y disparadores",
+      "Tablas, vistas y secuencias.",
+      "No permiten agrupar nada"
+    ],
+    "correcta": "A"
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes afirmaciones es correcta sobre los métodos estáticos según el texto?",
+    "opciones": [
+      "Los métodos estáticos pueden acceder a los atributos de instancia del objeto.",
+      "Los métodos estáticos requieren la creación de una instancia del objeto para ser llamados.",
+      "Los métodos estáticos se invocan directamente utilizando el nombre del tipo de dato objeto.",
+      "Los métodos estáticos son útiles solo cuando se necesita acceder a los atributos de instancia del objeto."
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "Respecto a los métodos MAP",
+    "opciones": [
+      "Es obligatorio tener múltiples en cada tipo de objeto",
+      "En los tipos de objeto no se puede tener métodos MAP",
+      "Se definen tantos como se considere oportunos en cada tipo de objeto",
+      "Sólo puede existir un único método de tipo MAP para cada tipo de objeto"
+    ],
+    "correcta": "D"
+  },
+  {
+    "pregunta": "CREATE TABLE t_alumnos OF alumno; Mediante el código anterior se está",
+    "opciones": [
+      "Creando una tabla de elementos ‘t_alumnos’",
+      "Creando una tabla de objetos ‘alumno’",
+      "Creando una tabla con columnas tipo objeto",
+      "Ninguna es correcta"
+    ],
+    "correcta": "B"
+  },
+  {
+    "pregunta": "SELECT nombre FROM editoriales WHERE código IN (SELECT codigoeditorial FROM libros WHERE autor = ‘Arturo Perez’); El fin de la consulta anterior es:",
+    "opciones": [
+      "Se muestran los libros que ha publicado Arturo Perez para una editorial.",
+      "Se muestran las editoriales que no han publicado libros de Arturo Perez.",
+      "Se muestran las editoriales que han publicado libros de Arturo perez.",
+      "Se muestra el codigo editorial de los libros de Arturo Prez"
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "Para eliminar una vista en base de datos se utiliza la sentencia:",
+    "opciones": [
+      "DELETE VIEW nombreVista.",
+      "DROP TABLE nombreVista.",
+      "DROP VIEW nombreVista.",
+      "REMOVE VIEW nombreVista."
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "¿Cuándo podemos asignar dos registros entre sí?",
+    "opciones": [
+      "Siempre",
+      "Nunca",
+      "Cuando sean del mismo tipo",
+      "Si tienen los mismos parámetros"
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "En PL/SQL declaramos las variables en el bloque:",
+    "opciones": [
+      "DECLARE",
+      "BEGIN",
+      "IF",
+      "Puedes declararlas en cualquier bloque"
+    ],
+    "correcta": "A"
+  },
+  {
+    "pregunta": "El método ORDER en bases de datos objeto-relacionales: Elige la respuesta correcta:",
+    "opciones": [
+      "Se usa para convertir un objeto en una cadena de texto antes de almacenarlo en la base de datos.",
+      "Permite establecer el orden de ejecución de los métodos dentro de un objeto.",
+      "Se utiliza para ordenar objetos del mismo tipo, comparándolos mediante los atributos del propio objeto y de otro, que se pasa como argumento.",
+      "Se utiliza para asignar automáticamente valores a los atributos de un objeto en el momento de su creación."
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "Al hacer la sobrecarga de un método:",
+    "opciones": [
+      "Ambos deben tener nombres diferentes.",
+      "Ambos deben tener obligatoriamente distinto número de parámetros.",
+      "Los parámetros de ambos métodos deben tener distintos tipos.",
+      "Ninguno de los métodos debe llevar parámetros."
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "DELETE FROM empleados WHERE num_dpto != 5; El fin de la consulta anterior es",
+    "opciones": [
+      "Actualizar el departamento de los empleados al 5.",
+      "Eliminar los empleados que no pertenecen al departamento nº 5.",
+      "Se trata de una consulta errónea.",
+      "Obtener los datos de los empleados del departamento nº 5."
+    ],
+    "correcta": "B"
+  },
+  {
+    "pregunta": "En PL/SQL para acceder a un elemento concreto del array prueba se escribirá:",
+    "opciones": [
+      "prueba.3",
+      "prueba[3]",
+      "prueba(3)",
+      "prueba.(3)"
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "Deseamos asignar un valor 30 al atributo importe del objeto venta1",
+    "opciones": [
+      "30 = venta1;",
+      "venta1.importe := 30;",
+      "importe.venta1 := 30;",
+      "Ninguna es correcta"
+    ],
+    "correcta": "B"
+  },
+  {
+    "pregunta": "Los constructores en una Base de Datos Objeto-Relacional:",
+    "opciones": [
+      "No existen.",
+      "Hay que crearlos siempre.",
+      "No se pueden crear nuevos constructores.",
+      "Ninguna de las demás opciones es correcta."
+    ],
+    "correcta": "D"
   }
+],
+
+
+"Ejercicio recuperacion": [
+  {
+    "pregunta": "Los ficheros, según su uso, se pueden clasificar en ...",
+    "opciones": [
+      "Secuenciales y de Acceso Directo",
+      "Secuenciales e Indexados",
+      "De Acceso Directo e Indexados",
+      "Permanentes y Temporales"
+    ],
+    "correcta": "D"
+  },
+  {
+    "pregunta": "El nivel de abstracción de un SGBD en el que se gestionan los datos y su almacenamiento es el nivel...",
+    "opciones": [
+      "Externo a la base de datos",
+      "Interno",
+      "Conceptual",
+      "Lógico"
+    ],
+    "correcta": "B"
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes opciones clasifica un SGBD según su tamaño o capacidad de procesamiento?",
+    "opciones": [
+      "Alto rendimiento",
+      "Orientados a objetos",
+      "SGBD Monocapa",
+      "Relacionales"
+    ],
+    "correcta": "A"
+  },
+  {
+    "pregunta": "La función SUBSTR...",
+    "opciones": [
+      "Realiza la sustracción o resta entre dos números",
+      "Sustituye un conjunto de caracteres por otros, en un texto",
+      "Devuelve un número de caracteres de un texto a partir de una posición indicada",
+      "Las demás respuestas son incorrectas"
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "Referido a las jerarquías de entidades, la especialización puede ser...",
+    "opciones": [
+      "Exclusiva y Total",
+      "Inclusiva y Total",
+      "Exclusiva y Parcial",
+      "Todas las respuestas son correctas"
+    ],
+    "correcta": "D"
+  },
+  {
+    "pregunta": "La cardinalidad de una relación...",
+    "opciones": [
+      "Es la cantidad de veces que una entidad puede participar en una relación",
+      "Es el número de entidades participantes en una relación",
+      "Puede ser binaria, ternaria o n-aria",
+      "Puede ser doble o reflexiva"
+    ],
+    "correcta": "A"
+  },
+  {
+    "pregunta": "El perfil de usuario que decide la arquitectura de la base de datos es el...",
+    "opciones": [
+      "Diseñador",
+      "Programador",
+      "Administrador",
+      "Técnico"
+    ],
+    "correcta": "A"
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes no es un modelo de base de datos?",
+    "opciones": [
+      "Modelo jerárquico",
+      "Modelo en red",
+      "Modelo Entidad Relación",
+      "Modelo Relacional"
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "En el modelo relacional, un atributo...",
+    "opciones": [
+      "Correspondería a la columna de la tabla",
+      "Correspondería a las filas de la tabla",
+      "Correspondería a las tuplas de la tabla",
+      "Está relacionado con el concepto de Cardinalidad"
+    ],
+    "correcta": "A"
+  },
+  {
+    "pregunta": "La información de menor tamaño que puede manejar cualquier equipo digital es...",
+    "opciones": [
+      "El bit",
+      "El byte",
+      "La que se almacena en un disco duro",
+      "Las demás respuestas son incorrectas"
+    ],
+    "correcta": "A"
+  },
+  {
+    "pregunta": "La restricción UNIQUE:",
+    "opciones": [
+      "Indica el valor que se va a aplicar a un campo si no tiene uno asignado",
+      "Determina que un campo pueda tener el valor NULL",
+      "Establece una condición que debe cumplir el campo a nivel de columna",
+      "Hace que no se permiten valores duplicados"
+    ],
+    "correcta": "D"
+  },
+  {
+    "pregunta": "SELECT nombre FROM editoriales WHERE código IN (SELECT codigoeditorial FROM libros WHERE autor = 'Arturo Perez'); El fin de la consulta anterior es:",
+    "opciones": [
+      "Se muestran los libros que ha publicado Arturo Perez para una editorial",
+      "Se muestran las editoriales que no han publicado libros de Arturo Perez",
+      "Se muestran las editoriales que han publicado libros de Arturo Perez",
+      "Se muestra el código editorial de los libros de Arturo Perez"
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "Al hacer la sobrecarga de un método:",
+    "opciones": [
+      "Ambos deben tener nombres diferentes",
+      "Ambos deben tener obligatoriamente distinto número de parámetros",
+      "Los parámetros de ambos métodos deben tener distintos tipos",
+      "Ninguno de los métodos debe llevar parámetros"
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "El método ORDER en bases de datos objeto-relacionales:",
+    "opciones": [
+      "Se usa para convertir un objeto en una cadena de texto",
+      "Permite establecer el orden de ejecución de los métodos dentro de un objeto",
+      "Se utiliza para ordenar objetos del mismo tipo comparándolos mediante atributos",
+      "Se utiliza para asignar automáticamente valores a los atributos"
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "¿Cuándo podemos asignar dos registros entre sí?",
+    "opciones": [
+      "Siempre",
+      "Nunca",
+      "Cuando sean del mismo tipo",
+      "Si tienen los mismos parámetros"
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "Los constructores en una Base de Datos Objeto-Relacional:",
+    "opciones": [
+      "No existen",
+      "Hay que crearlos siempre",
+      "No se pueden crear nuevos constructores",
+      "Ninguna de las demás opciones es correcta"
+    ],
+    "correcta": "D"
+  },
+  {
+    "pregunta": "SELECT c.nombre, p.id_pedido FROM clientes c, pedidos p INNER JOIN pedidos ON p.clienteID = c.clienteID ORDER BY c.nombre; El fin de la consulta anterior es:",
+    "opciones": [
+      "Obtener el nombre de los clientes y los pedidos realizados en el último año",
+      "Obtener todos los clientes que tienen pedidos",
+      "Obtener todos los pedidos",
+      "Obtener los clientes que no tienen pedidos"
+    ],
+    "correcta": "B"
+  },
+  {
+    "pregunta": "La utilización de un número elevado de índices en una base de datos...",
+    "opciones": [
+      "Es lo conveniente, en cualquier caso",
+      "Puede contribuir a disminuir la eficacia de la misma",
+      "No afecta de ninguna manera a la base de datos",
+      "No es aconsejable la utilización de índices, en cualquier caso"
+    ],
+    "correcta": "B"
+  },
+  {
+    "pregunta": "Para eliminar una vista en base de datos se utiliza la sentencia:",
+    "opciones": [
+      "DELETE VIEW nombreVista",
+      "DROP TABLE nombreVista",
+      "DROP VIEW nombreVista",
+      "REMOVE VIEW nombreVista"
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "En PL/SQL declaramos las variables en el bloque:",
+    "opciones": [
+      "DECLARE",
+      "BEGIN",
+      "IF",
+      "Puedes declararlas en cualquier bloque"
+    ],
+    "correcta": "A"
+  }
+],
+
+
+
+"Examen 2º Parcial": [
+  {
+    "pregunta": "¿Cuál de las siguientes opciones es una categoría de composición de las consultas multitabla?",
+    "opciones": [
+      "Composiciones internas",
+      "Composiciones intermedias",
+      "Composiciones extremas",
+      "Composiciones bloqueadas"
+    ],
+    "correcta": "A"
+  },
+  {
+    "pregunta": "La cláusula FULL OUTER JOIN:",
+    "opciones": [
+      "Se caracteriza por asociar cada fila de una tabla a todas las filas de otra.",
+      "Combina las filas de ambas tablas cuando hay coincidencias en una columna específica.",
+      "Toma todas las filas de la tabla de la izquierda y las combina con las filas coincidentes de la tabla de la derecha.",
+      "Combina todas las filas de ambas tablas. Muestra las filas con coincidencias y también las filas sin coincidencias, poniendo NULL donde no haya datos."
+    ],
+    "correcta": "D"
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes opciones es un tipo de subconsulta?",
+    "opciones": [
+      "Subconsultas de índice",
+      "Subconsultas fijas",
+      "Subconsultas auxiliares",
+      "Subconsultas escalares"
+    ],
+    "correcta": "D"
+  },
+  {
+    "pregunta": "El comando UPDATE:",
+    "opciones": [
+      "Permite insertar nuevos registros en la BD.",
+      "Permite eliminar los registros específicos de una tabla basándose en una condición determinada.",
+      "Permite modificar o actualizar los valores de uno o varios registros en una tabla o vista de la base de datos.",
+      "No existe el comando UPDATE en SQL."
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "Para eliminar los registros específicos de una tabla se utiliza el comando:",
+    "opciones": [
+      "UPDATE",
+      "REMOVE",
+      "ALTER",
+      "DELETE"
+    ],
+    "correcta": "D"
+  },
+  {
+    "pregunta": "En cuanto a las herramientas para la optimización de consultas, las sugerencias para el optimizador:",
+    "opciones": [
+      "Hacen posible dar indicaciones al optimizador de consultas, por ejemplo, indicándole qué índice utilizar.",
+      "Permiten dividir una tabla grande en partes más pequeñas.",
+      "Permiten visualizar los pasos que el motor de base de datos seguirá para ejecutar la consulta.",
+      "Almacenan los resultados de una consulta y pueden actualizarse periódicamente."
+    ],
+    "correcta": "A"
+  },
+  {
+    "pregunta": "Para crear un índice en base de datos se utiliza la sentencia:",
+    "opciones": [
+      "DROP INDEX",
+      "INSERT INDEX",
+      "CREATE INDEX",
+      "UPDATE INDEX"
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "Para crear un usuario en base de datos se utiliza la sentencia:",
+    "opciones": [
+      "CREATE USER",
+      "REVOKE USER",
+      "GRANT USER",
+      "ADD USER"
+    ],
+    "correcta": "A"
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes opciones es una política de bloqueo utilizada para mejorar la seguridad en bases de datos?",
+    "opciones": [
+      "Control de usuarios con permisos",
+      "Restricción de acceso por horario",
+      "Bloqueo de cuentas activas",
+      "Optimización de consultas SQL"
+    ],
+    "correcta": "B"
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes opciones es una propiedad de las transacciones?",
+    "opciones": [
+      "Inconsistencia",
+      "Duplicidad",
+      "Aislamiento",
+      "Escalabilidad"
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "El problema de la Lectura sucia (Dirty Read):",
+    "opciones": [
+      "Ocurre cuando varias transacciones modifican el valor de la misma fila basándose en su valor inicial.",
+      "Ocurre cuando durante una transacción se detectan nuevas filas al repetir una consulta.",
+      "Ocurre cuando una segunda transacción accede a datos que están siendo modificados por otra transacción antes de que los cambios sean confirmados.",
+      "Se presenta cuando una transacción consulta los mismos datos en momentos distintos y descubre cambios realizados por otra transacción."
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "La técnica optimista consiste en:",
+    "opciones": [
+      "La prevención del interbloqueo.",
+      "La asignación de prioridades a las transacciones.",
+      "La detección del interbloqueo.",
+      "El uso de un cronograma basado en serialización inmediata."
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "¿Qué es PL/SQL?",
+    "opciones": [
+      "Un lenguaje de marcado para diseñar bases de datos.",
+      "Un software independiente para gestionar bases de datos.",
+      "Un lenguaje de programación procedimental basado en bloques que amplía SQL.",
+      "Una herramienta gráfica para diseñar modelos entidad-relación."
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes opciones no es un tipo de excepción?",
+    "opciones": [
+      "Excepciones locales automáticas",
+      "Las que define el usuario",
+      "Predefinidas por Oracle",
+      "Excepciones de Oracle sin definir"
+    ],
+    "correcta": "A"
+  },
+  {
+    "pregunta": "Las librerías básicas disponibles en PL/SQL:",
+    "opciones": [
+      "Contienen funciones diseñadas para operaciones específicas de negocio.",
+      "Incluyen funcionalidades esenciales y de bajo nivel que son generales y fundamentales para la programación.",
+      "Son utilizadas únicamente para realizar tareas de seguridad automáticas.",
+      "Están limitadas a operaciones relacionadas con interfaces gráficas."
+    ],
+    "correcta": "B"
+  },
+  {
+    "pregunta": "Los registros se pueden describir como:",
+    "opciones": [
+      "Una colección de elementos del mismo tipo organizados en un orden específico.",
+      "Una colección de pares clave-valor.",
+      "Tipos de datos conocidos como index-by tables.",
+      "Un conjunto de datos relacionados, organizados en campos."
+    ],
+    "correcta": "D"
+  },
+  {
+    "pregunta": "Los Arrays se pueden describir como:",
+    "opciones": [
+      "Una colección de elementos del mismo tipo organizados en un orden específico, lo que permite acceder a cada uno mediante un índice.",
+      "Una colección de pares clave-valor.",
+      "Tipos de datos conocidos como index-by tables.",
+      "Un conjunto de datos relacionados, organizados en campos."
+    ],
+    "correcta": "A"
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes opciones no es un tipo de cursor?",
+    "opciones": [
+      "Cursores implícitos con parámetros",
+      "Cursores implícitos",
+      "Cursores explícitos",
+      "Cursores explícitos con parámetros"
+    ],
+    "correcta": "A"
+  },
+  {
+    "pregunta": "Un procedimiento:",
+    "opciones": [
+      "Permite agrupar funciones, tipos de datos y otros elementos.",
+      "Se utiliza principalmente para realizar operaciones y cálculos necesarios para devolver un valor específico.",
+      "Es un bloque de código diseñado con un propósito específico, al cual se le asigna un nombre para poder reutilizarlo.",
+      "No existe en PL/SQL."
+    ],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "Las funciones:",
+    "opciones": [
+      "Permiten agrupar funciones, tipos de datos y otros elementos.",
+      "Se utilizan principalmente para realizar operaciones y cálculos necesarios para devolver un valor específico.",
+      "Son bloques de código sin retorno.",
+      "No existen en PL/SQL."
+    ],
+    "correcta": "B"
+  },
+  {
+    "pregunta": "Un disparador o trigger:",
+    "opciones": [
+      "Es un tipo de procedimiento que se ejecuta automáticamente al realizar una operación DML en la base de datos.",
+      "Es una herramienta para realizar respaldos automáticos.",
+      "Es un procedimiento manual que debe ejecutarse mediante un comando específico.",
+      "Es una vista que muestra los cambios realizados en tiempo real."
+    ],
+    "correcta": "A"
+  },
+  {
+    "pregunta": "FUNCTION se utiliza cuando:",
+    "opciones": [
+      "Se desea crear un método que modifica directamente los atributos del objeto sin retornar valores.",
+      "El método es una función, lo que implica que debe retornar un valor al ser ejecutado.",
+      "Es un método estático que requiere instancias del objeto.",
+      "El método es un procedimiento que no retorna ningún valor."
+    ],
+    "correcta": "B"
+  },
+  {
+    "pregunta": "¿Qué es el polimorfismo en las bases de datos objeto-relacionales?",
+    "opciones": [
+      "Un mecanismo que impide que los subtipos sobrescriban métodos.",
+      "Permite que diferentes tipos de objetos respondan a la misma llamada de método de manera diferente.",
+      "Consiste en duplicar atributos y métodos.",
+      "Solo se aplica a atributos."
+    ],
+    "correcta": "B"
+  },
+  {
+    "pregunta": "La cláusula REF en consultas:",
+    "opciones": [
+      "Se utiliza para obtener una referencia a un objeto en lugar de extraer el objeto completo.",
+      "Se utiliza junto con SELECT para hacer referencia solo a un atributo.",
+      "Permite duplicar objetos en diferentes tablas.",
+      "Convierte un objeto en una clave primaria."
+    ],
+    "correcta": "A"
+  }
+],
+
+"📚 Resumen T11-T20": []
+
+
+}
 };

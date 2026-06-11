@@ -420,19 +420,217 @@ if (acceso !== PASSWORD) {
       }
     }
 
-    function iniciarExamenTema(tema) {
-  const asignatura = window.QUIZ_DATA[asignaturaActual];
-  bancoActual = asignatura.temas[tema];
-  tituloActual = asignatura.nombre + " - " + tema;
+   
+    function mostrarResumenBDD() {
 
-  if (tema === "Examen 2º Parcial") {
-  iniciarExamen(30);
-} else if (tema === "Cuestionario de repaso" || tema === "Ejercicio recuperacion") {
+document.getElementById("pantallaResultado").innerHTML = `
+
+<h2>📚 Resumen Bases de Datos (Temas 11-20)</h2>
+
+<h3>Tema 11 - Consultas Multitabla</h3>
+
+<p><strong>INNER JOIN:</strong> Une dos tablas mostrando únicamente los registros que tienen coincidencias en ambas tablas.</p>
+
+<p><strong>NATURAL JOIN:</strong> Funciona como un INNER JOIN pero detecta automáticamente las columnas comunes sin utilizar ON.</p>
+
+<p><strong>LEFT JOIN:</strong> Muestra todos los registros de la tabla izquierda y las coincidencias de la derecha. Si no existen coincidencias devuelve NULL.</p>
+
+<p><strong>RIGHT JOIN:</strong> Muestra todos los registros de la tabla derecha y las coincidencias de la izquierda.</p>
+
+<p><strong>FULL OUTER JOIN:</strong> Muestra todos los registros de ambas tablas existan o no coincidencias.</p>
+
+<p><strong>CROSS JOIN:</strong> Genera todas las combinaciones posibles entre ambas tablas.</p>
+
+<p><strong>Subconsulta:</strong> Consulta SELECT incluida dentro de otra consulta.</p>
+
+<p><strong>UNION:</strong> Une resultados eliminando duplicados.</p>
+
+<p><strong>MINUS:</strong> Devuelve los registros de la primera consulta que no aparecen en la segunda.</p>
+
+<hr>
+
+<h3>Tema 12 - Tratamiento de Datos</h3>
+
+<p><strong>INSERT:</strong> Inserta nuevos registros.</p>
+
+<p><strong>UPDATE:</strong> Modifica registros existentes.</p>
+
+<p><strong>DELETE:</strong> Elimina registros existentes.</p>
+
+<p><strong>Plan de ejecución:</strong> Muestra los pasos que seguirá el motor de la base de datos.</p>
+
+<p><strong>Hints:</strong> Indicaciones para ayudar al optimizador de consultas.</p>
+
+<p><strong>Vista materializada:</strong> Almacena físicamente el resultado de una consulta.</p>
+
+<hr>
+
+<h3>Tema 13 - Seguridad</h3>
+
+<p><strong>Índice:</strong> Estructura que acelera las búsquedas dentro de una tabla.</p>
+
+<p><strong>CREATE INDEX:</strong> Crea índices.</p>
+
+<p><strong>DROP INDEX:</strong> Elimina índices.</p>
+
+<p><strong>Vista:</strong> Consulta almacenada que se utiliza como si fuera una tabla.</p>
+
+<p><strong>CREATE USER:</strong> Crea usuarios en la base de datos.</p>
+
+<p><strong>GRANT:</strong> Concede permisos.</p>
+
+<p><strong>REVOKE:</strong> Elimina permisos.</p>
+
+<hr>
+
+<h3>Tema 14 - Transacciones</h3>
+
+<p><strong>Transacción:</strong> Conjunto de operaciones que se ejecutan como una única unidad lógica de trabajo.</p>
+
+<p><strong>Atomicidad:</strong> Todo o nada.</p>
+
+<p><strong>Consistencia:</strong> La base de datos mantiene su integridad.</p>
+
+<p><strong>Aislamiento:</strong> Las transacciones no interfieren entre sí.</p>
+
+<p><strong>Durabilidad:</strong> Los cambios quedan guardados permanentemente.</p>
+
+<p><strong>Lectura sucia:</strong> Lectura de datos aún no confirmados.</p>
+
+<p><strong>Lectura no repetible:</strong> Un dato cambia entre dos consultas.</p>
+
+<p><strong>Lectura fantasma:</strong> Aparecen nuevas filas entre dos consultas.</p>
+
+<p><strong>Bloqueo pesimista:</strong> Bloquea desde el principio.</p>
+
+<p><strong>Bloqueo optimista:</strong> Bloquea únicamente al guardar.</p>
+
+<hr>
+
+<h3>Tema 15 - PL/SQL</h3>
+
+<p><strong>PL/SQL:</strong> Lenguaje procedimental de Oracle basado en SQL.</p>
+
+<p><strong>Excepciones:</strong> Errores que interrumpen la ejecución normal del programa.</p>
+
+<p><strong>Excepciones predefinidas:</strong> Incluidas por Oracle.</p>
+
+<p><strong>Excepciones definidas por el usuario:</strong> Se crean mediante RAISE.</p>
+
+<hr>
+
+<h3>Tema 16 - Registros y Cursores</h3>
+
+<p><strong>Registro:</strong> Conjunto de campos relacionados.</p>
+
+<p><strong>Array:</strong> Colección de elementos del mismo tipo accesibles mediante índice.</p>
+
+<p><strong>Array asociativo:</strong> Colección clave-valor.</p>
+
+<p><strong>Tabla anidada:</strong> Colección dinámica sin límite fijo.</p>
+
+<p><strong>Cursor:</strong> Permite recorrer los resultados fila a fila.</p>
+
+<p><strong>Cursor implícito:</strong> Lo crea Oracle automáticamente.</p>
+
+<p><strong>Cursor explícito:</strong> Lo crea el programador.</p>
+
+<hr>
+
+<h3>Tema 17 - Subprogramas</h3>
+
+<p><strong>Procedimiento:</strong> Bloque reutilizable que no devuelve valor.</p>
+
+<p><strong>Función:</strong> Bloque reutilizable que devuelve un valor mediante RETURN.</p>
+
+<p><strong>Trigger:</strong> Procedimiento que se ejecuta automáticamente ante INSERT, UPDATE o DELETE.</p>
+
+<hr>
+
+<h3>Tema 18 - Bases de Datos Objeto-Relacionales</h3>
+
+<p><strong>Objeto:</strong> Formado por nombre, atributos y métodos.</p>
+
+<p><strong>FUNCTION:</strong> Devuelve valor.</p>
+
+<p><strong>PROCEDURE:</strong> No devuelve valor.</p>
+
+<p><strong>STATIC:</strong> Método independiente de instancias.</p>
+
+<p><strong>SELF:</strong> Representa al objeto actual.</p>
+
+<p><strong>Sobrecarga:</strong> Permite varios métodos con el mismo nombre pero distintos parámetros.</p>
+
+<p><strong>Constructor:</strong> Método que crea objetos.</p>
+
+<hr>
+
+<h3>Tema 19 - Herencia y Polimorfismo</h3>
+
+<p><strong>Herencia:</strong> Permite que un subtipo herede atributos y métodos de un supertipo.</p>
+
+<p><strong>FINAL:</strong> No permite heredar.</p>
+
+<p><strong>NOT FINAL:</strong> Permite heredar.</p>
+
+<p><strong>Polimorfismo:</strong> Distintos objetos responden de forma diferente al mismo método.</p>
+
+<p><strong>MAP:</strong> Convierte el objeto en un valor simple para compararlo.</p>
+
+<p><strong>ORDER:</strong> Compara directamente dos objetos.</p>
+
+<hr>
+
+<h3>Tema 20 - Organización de Objetos</h3>
+
+<p><strong>VARRAY:</strong> Colección ordenada con tamaño máximo definido.</p>
+
+<p><strong>Tabla anidada:</strong> Colección sin límite de tamaño.</p>
+
+<p><strong>VALUE:</strong> Recupera el objeto completo.</p>
+
+<p><strong>REF:</strong> Recupera una referencia al objeto.</p>
+
+<br>
+
+<div class="barra">
+<button class="boton secundario pequeno" onclick="salirATemas()">
+  Volver
+</button>
+</div>
+`;
+
+mostrarSolo("pantallaResultado");
+}
+
+
+
+function iniciarExamenTema(tema) {
+
+if (tema === "📚 Resumen T11-T20") {
+  mostrarResumenBDD();
+  return;
+}
+
+const asignatura = window.QUIZ_DATA[asignaturaActual];
+bancoActual = asignatura.temas[tema];
+tituloActual = asignatura.nombre + " - " + tema;
+
+console.log("Tema pulsado:", tema);
+console.log("Banco cargado:", bancoActual);
+
+if (tema === "Examen 2º Parcial") {
+  iniciarExamen(24);
+} else if (
+  tema === "Cuestionario de repaso" ||
+  tema === "Ejercicio recuperacion"
+) {
   iniciarExamen(20);
 } else {
   iniciarExamen(10);
 }
-    }
+}
+    
 
     function iniciarExamenCompleto() {
       const asignatura = window.QUIZ_DATA[asignaturaActual];
@@ -602,4 +800,4 @@ function iniciarExamen(totalPreguntas) {
 </body>
 
 </html>
-  
+
